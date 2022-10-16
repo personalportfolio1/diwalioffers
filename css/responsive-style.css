@@ -1,0 +1,27 @@
+@media screen and (max-width:470px){
+    .wrapper{
+        display:grid;
+        grid-template-columns: 30% 70%;
+    }
+    .menue{
+        font-size:12px;
+    }
+    /* #dasboard{
+        padding-left:10px;
+    } */
+    .list .searchbar {
+        position:absolute;
+        top:120px;
+        right:40px;
+      } 
+}
+@media screen and (max-width:800px){
+    .wrapper{
+        display:grid;
+        grid-template-columns: 30% 70%;
+    }
+    .menue{
+        font-size:18px;
+    }
+
+}
